@@ -1,0 +1,43 @@
+CreateUser Pulkit
+CreateUser Arpit
+CreateUser Atul
+CreateUser Sanyam
+CreateUser Shikhar
+CreateQuestion LOW 3
+CreateQuestion MEDIUM 5
+CreateQuestion HIGH 7
+CreateQuestion LOW 4
+CreateQuestion MEDIUM 6
+CreateQuestion HIGH 8
+CreateQuestion LOW 5
+CreateQuestion MEDIUM 7
+CreateQuestion HIGH 9
+CreateQuestion LOW 6
+CreateQuestion MEDIUM 8
+CreateQuestion HIGH 10
+CreateQuestion LOW 7
+CreateQuestion MEDIUM 9
+CreateQuestion HIGH 11
+ListQuestion
+ListQuestion MEDIUM
+CreateContest JanContest LOW User1_Pulkit
+CreateContest FebContest MEDIUM User2_Arpit
+CreateContest MarContest HIGH User1_Pulkit
+CreateContest AprContest MEDIUM User3_Atul
+CreateContest MayContest LOW User4_Sanyam
+ListContest
+ListContest LOW
+AttendContest 1 User2_Arpit
+AttendContest 1 User5_Shikhar
+AttendContest 1 User3_Atul
+AttendContest 2 User3_Atul
+AttendContest 3 User4_Sanyam
+AttendContest 4 User1_Pulkit
+RunContest 1 User1_Pulkit
+RunContest 2 User1_Pulkit
+LeaderBoard DESC
+RunContest 2 User2_Arpit
+RunContest 5 User4_Sanyam
+LeaderBoard ASC
+ContestHistory 1
+ContestHistory 2
